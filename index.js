@@ -4,6 +4,7 @@
         reference data types-object(arrays)
         values-NULL(object type),undefined,NaN
         */
+
 //String Methods
 let a='januaswa';
 // returns the length of the string
@@ -71,7 +72,9 @@ console.log(x.toExponential());
 // output: 98.5345
 console.log(x.toString());
 console.log(x.toString(2));
+
 //-----------------------------------------------------------------------------------
+
 //Global Methods
 // gives error meassage in console as red
 // output: blahhh
@@ -141,6 +144,6 @@ console.log(Boolean(-2));
 console.log(String(true));
 console.log(String("54.99 93 21"));
 
-
+//-----------------------------------------------------------------------------------
 
 
