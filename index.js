@@ -59,6 +59,7 @@ console.log(a.toLowerCase());
 // output :januaswa 
 console.log(a.trim());
 //-----------------
+
 //Number Methods:
 let x=98.5345;
 // keeping the given number of decimals only
