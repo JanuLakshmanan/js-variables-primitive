@@ -58,20 +58,19 @@ console.log(a.toLowerCase());
 //  trims the extra spaces
 // output :januaswa 
 console.log(a.trim());
-//-----------------
-
+//----------------------------------------------------------------------------------
 //Number Methods:
 let x=98.5345;
 // keeping the given number of decimals only
 // output : 98.53
 console.log(x.toFixed(2));
 // exponential value
-// output : 9.85e+1
-console.log(x.toExponential(2));
+// output : 9.85345e+1
+console.log(x.toExponential());
 // convert the value into string
 // output: 98.5345
 console.log(x.toString());
-//--------
+//-----------------------------------------------------------------------------------
 //Global Methods
 //console.error("blahhh");
 
