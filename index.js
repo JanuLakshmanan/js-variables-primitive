@@ -135,7 +135,7 @@ console.log(parseInt("43"));
 console.log(parseInt(true));
 
 // Boolean values
-// output : false false
+// output : false true
 console.log(Boolean(0));
 console.log(Boolean(-2));
 
