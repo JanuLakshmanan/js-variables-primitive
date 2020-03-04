@@ -70,9 +70,77 @@ console.log(x.toExponential());
 // convert the value into string
 // output: 98.5345
 console.log(x.toString());
+console.log(x.toString(2));
 //-----------------------------------------------------------------------------------
 //Global Methods
-//console.error("blahhh");
+// gives error meassage in console as red
+// output: blahhh
+console.error("blahhh");
+// gives info as text
+// output : januuuu
+console.info("januuuu");
+// gives info in the log
+// output : aswa
+console.log("aswa");
+// gives as warnng in yellow message in console
+// output : warning
+console.warn("warning");
+// displays the table view with index and value
+//output : (index)       Value
+//         0            "janu"
+//        1          "shwetha"
+//Array(2)         
+console.table(["janu","shwetha"]);
+
+// gives an alert popup
+// output:  popup having warning text
+//--alert("warning");
+
+// prompt has a user input  popup
+// output : a popup getting user input
+//--- var person = prompt("Please enter your name");
+//---console.log("Hi "+ person);
+
+//  gives a confirmation message popup for the user
+//  output: popup box with message
+//--confirm("Are you ok?");
+
+ // to convert variables to numbers
+ // output : 1 999 0 null(NaN)
+ var x=true;
+ var y = "999";
+ var z= false;
+ var b="99 99";
+ console.log(Number(x));
+ console.log(Number(y));
+ console.log(Number(z));
+ console.log(Number(b));
+
+ // check whether it is not a number or not
+ // output : true true false
+console.log(isNaN(0/0));
+console.log(isNaN("janu"));
+console.log(isNaN("99"));
+
+// parse to float value
+// output :10.43
+console.log(parseFloat("10.430"));
+
+// parse to int value
+//  output : 43 NaN
+console.log(parseInt("43"));
+console.log(parseInt(true));
+
+// Boolean values
+// output : false false
+console.log(Boolean(0));
+console.log(Boolean(-2));
+
+// convert to string values
+// output : true 54.99 93 21
+console.log(String(true));
+console.log(String("54.99 93 21"));
+
 
 
 
